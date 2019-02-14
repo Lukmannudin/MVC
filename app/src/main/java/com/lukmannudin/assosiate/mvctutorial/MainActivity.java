@@ -14,14 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         rvPoke = findViewById(R.id.rvPoke);
-
         controller = new Controller(this);
         controller.initData();
-
-    }
-
-    public RecyclerView recyclerViewPoke() {
-        return rvPoke;
     }
 
     public void showRecyclerList() {
@@ -29,4 +23,5 @@ public class MainActivity extends AppCompatActivity {
         ListAdapter listAdapter = new ListAdapter(this, controller.getMyPoke());
         rvPoke.setAdapter(listAdapter);
     }
+
 }

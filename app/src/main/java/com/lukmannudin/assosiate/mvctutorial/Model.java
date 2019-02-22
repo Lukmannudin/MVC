@@ -1,7 +1,6 @@
 package com.lukmannudin.assosiate.mvctutorial;
 
 public class Model {
-
     private String name;
     private String image;
     private String rarity;

@@ -75,7 +75,6 @@ public class DataPokemon {
             pokeModel.setImage(aData[1]);
             pokeModel.setRarity(aData[2]);
             pokeModel.setSet(aData[3]);
-
             list.add(pokeModel);
         }
         return list;

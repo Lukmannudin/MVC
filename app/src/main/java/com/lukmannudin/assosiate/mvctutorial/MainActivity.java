@@ -23,5 +23,4 @@ public class MainActivity extends AppCompatActivity {
         ListAdapter listAdapter = new ListAdapter(this, controller.getMyPoke());
         rvPoke.setAdapter(listAdapter);
     }
-
 }
